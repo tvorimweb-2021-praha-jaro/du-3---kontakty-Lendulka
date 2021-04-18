@@ -1,0 +1,70 @@
+
+html { box-sizing: border-box; }
+
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    text-rendering: optimizeLegibility;
+}
+
+:root {--primary: #e7e6e6;}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.kontejner {
+    display: flex;
+    width: fit-content;
+    border: 20px solid var(--primary);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: var(--primary);
+}
+
+.polozka {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 22%;
+    border: 14px solid var(--primary);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #FFFFFF;
+}
+
+.foto {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.icons {
+    width: 35px;
+    height: 35px;
+    margin-right: 0.25rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: 1rem;
+}
+
+h2 {
+    font-size: 1.25rem
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+
+
+
